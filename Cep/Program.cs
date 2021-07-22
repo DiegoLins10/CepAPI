@@ -22,8 +22,17 @@ namespace Cep
                 Console.WriteLine("Consultando informações do CEP: " + cepInformado);
 
                 var address = await cepClient.GetAddressAssync(cepInformado);
-
+                Console.WriteLine();
+                Console.WriteLine("Informações do CEP");
                 Console.WriteLine("Logradouro: " + address.Logradouro);
+                Console.WriteLine("Bairro: " + address.Bairro);
+                Console.WriteLine("Complemento: " + address.Complemento);
+                Console.WriteLine("Localidade: " + address.Localidade);
+                Console.WriteLine("DDD: " + address.Ddd);
+                Console.WriteLine("UF: " + address.Uf);
+                Console.WriteLine("Siafi: " + address.Siafi);
+                Console.WriteLine("Ibge: " + address.Ibge);
+                Console.WriteLine("Gia: " + address.Gia);
             }
             catch(Exception e)
             {
