@@ -18,11 +18,15 @@ namespace Cep.Entities
         public string Localidade { get; set; }
         [JsonProperty("uf")]
         public string Uf { get; set; }
-        [JsonProperty("unidade")]
-        public string Unidade { get; set; }
+        [JsonProperty("siafi")]
+        public string Siafi { get; set; }
         [JsonProperty("ibge")]
         public string Ibge { get; set; }
         [JsonProperty("gia")]
         public string Gia { get; set; }
+        [JsonProperty("ddd")]
+        public string Ddd { get; set; }
+        [JsonProperty("bairro")]
+        public string Bairro { get; set; }
     }
 }
