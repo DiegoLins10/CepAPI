@@ -1,4 +1,4 @@
-# CEP API
+# CEP API 🔭
 Consumindo uma API Rest com C# .Net que localiza um endereço pelo CEP fornecido pelo usuario e assim trazendo as informações referentes a esse endereço:
 - Logradouro
 - Bairro
